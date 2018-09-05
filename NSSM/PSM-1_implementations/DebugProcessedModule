@@ -1,0 +1,838 @@
+[Debug Test]
+Function: main(NonVoidTy): 0x26fe968
+ BasicBlock: 0x26fcfa0  wBasicBlock: 0x26fab40 [main%0], Type: 1 [ONE_BRANCH]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2702b80 [P]0x2702478
+   Instruction: store [P]0x2702b80 [P]0x2701408
+   Instruction: call   [CS-] gettimeofday [P]0x2701468 [P]0x2702be0 [S]gettimeofday
+   Instruction: br [P]0x26fac70
+ BasicBlock: 0x26fac70  wBasicBlock: 0x26fc240 [main%1], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702210 [P]0x2702538
+   Instruction: store [P]0x26fc560 [P]0x27024d8
+   Instruction: call   [CS-] srand [P]0x2702e20 [S]srand
+   Instruction: br [P]0x26fe7f0
+ BasicBlock: 0x26fe7f0  wBasicBlock: 0x26fbb70 [main%2], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27024d8
+   Instruction: zext [P]0x2700918
+   Instruction: mul [P]0x2702190 [P]0x2706e48
+   Instruction: call   [CS-] malloc [P]0x2706ec0 [S]malloc
+   Instruction: br [P]0x2702350
+ BasicBlock: 0x2702350  wBasicBlock: 0x26f96e0 [main%3], Type: 1 [ONE_BRANCH]
+   Instruction: bitcast [P]0x2706f30
+   Instruction: store [P]0x2706f98 [P]0x2702658
+   Instruction: load [P]0x27024d8
+   Instruction: zext [P]0x2707078
+   Instruction: mul [P]0x2702190 [P]0x27034d8
+   Instruction: call   [CS-] malloc [P]0x2703550 [S]malloc
+   Instruction: br [P]0x26f9d50
+ BasicBlock: 0x26f9d50  wBasicBlock: 0x2700a60 [main%4], Type: 1 [ONE_BRANCH]
+   Instruction: bitcast [P]0x27035c0
+   Instruction: store [P]0x2703628 [P]0x2701228
+   Instruction: load [P]0x27024d8
+   Instruction: zext [P]0x2703708
+   Instruction: mul [P]0x2702190 [P]0x2703768
+   Instruction: call   [CS-] malloc [P]0x27037e0 [S]malloc
+   Instruction: br [P]0x26fa080
+ BasicBlock: 0x26fa080  wBasicBlock: 0x26fb800 [main%5], Type: 1 [ONE_BRANCH]
+   Instruction: bitcast [P]0x2703850
+   Instruction: store [P]0x27038b8 [P]0x2701288
+   Instruction: load [P]0x27024d8
+   Instruction: zext [P]0x2703998
+   Instruction: mul [P]0x2702190 [P]0x27039f8
+   Instruction: call   [CS-] malloc [P]0x2703a70 [S]malloc
+   Instruction: br [P]0x26fa290
+ BasicBlock: 0x26fa290  wBasicBlock: 0x26fadc0 [main%6], Type: 1 [ONE_BRANCH]
+   Instruction: bitcast [P]0x2707d00
+   Instruction: store [P]0x2707d68 [P]0x27012e8
+   Instruction: load [P]0x2702538
+   Instruction: zext [P]0x2707e48
+   Instruction: mul [P]0x2702190 [P]0x2707ea8
+   Instruction: call   [CS-] malloc [P]0x2707f20 [S]malloc
+   Instruction: br [P]0x26fa430
+ BasicBlock: 0x26fa430  wBasicBlock: 0x26fb200 [main%7], Type: 1 [ONE_BRANCH]
+   Instruction: bitcast [P]0x2707f90
+   Instruction: store [P]0x2707ff8 [P]0x2701348
+   Instruction: load [P]0x2702538
+   Instruction: zext [P]0x27080d8
+   Instruction: mul [P]0x2702190 [P]0x2708138
+   Instruction: call   [CS-] malloc [P]0x27081b0 [S]malloc
+   Instruction: br [P]0x26fa6a0
+ BasicBlock: 0x26fa6a0  wBasicBlock: 0x26f6a60 [main%8], Type: 1 [ONE_BRANCH]
+   Instruction: bitcast [P]0x2708220
+   Instruction: store [P]0x2708288 [P]0x27013a8
+   Instruction: store [P]0x2702b80 [P]0x2702598
+   Instruction: br [P]0x27029a0
+ BasicBlock: 0x27029a0  wBasicBlock: 0x26f6d30 [main%9], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2702598
+   Instruction: load [P]0x2702538
+   Instruction: icmp [P]0x2708448 [P]0x27084a8
+   Instruction: br [P]0x2708520 [P]0x2702050 [P]0x2701fb0
+ BasicBlock: 0x2701fb0  wBasicBlock: 0x26f7020 [main%10], Type: 1 [ONE_BRANCH]
+   Instruction: call   [CS-] rand [S]rand
+   Instruction: br [P]0x26fa220
+ BasicBlock: 0x26fa220  wBasicBlock: 0x26f71d0 [main%11], Type: 1 [ONE_BRANCH]
+   Instruction: srem [P]0x2708608 [P]0x2703cb0
+   Instruction: sitofp [P]0x2708690
+   Instruction: load [P]0x2701348
+   Instruction: load [P]0x2702598
+   Instruction: zext [P]0x2706638
+   Instruction: getelementptr [P]0x2708b58 [P]0x2706698
+   Instruction: store [P]0x27086e8 [P]0x2706710
+   Instruction: call   [CS-] rand [S]rand
+   Instruction: br [P]0x2701a50
+ BasicBlock: 0x2701a50  wBasicBlock: 0x26f76f0 [main%12], Type: 1 [ONE_BRANCH]
+   Instruction: srem [P]0x27067f8 [P]0x2703cb0
+   Instruction: sitofp [P]0x2706880
+   Instruction: load [P]0x27013a8
+   Instruction: load [P]0x2702598
+   Instruction: zext [P]0x2706998
+   Instruction: getelementptr [P]0x2706938 [P]0x27069f8
+   Instruction: store [P]0x27068d8 [P]0x2706a70
+   Instruction: br [P]0x2702000
+ BasicBlock: 0x2702000  wBasicBlock: 0x26f7ba0 [main%13], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2702598
+   Instruction: add [P]0x2706bb8 [P]0x2702e20
+   Instruction: store [P]0x2706c30 [P]0x2702598
+   Instruction: br [P]0x27029a0
+ BasicBlock: 0x2702050  wBasicBlock: 0x26f7e70 [main%14], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702b80 [P]0x2702598
+   Instruction: br [P]0x27020a0
+ BasicBlock: 0x27020a0  wBasicBlock: 0x26f8040 [main%15], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2702598
+   Instruction: load [P]0x27024d8
+   Instruction: icmp [P]0x2709bc8 [P]0x2709c28
+   Instruction: br [P]0x2709ca0 [P]0x2705400 [P]0x27020f0
+ BasicBlock: 0x27020f0  wBasicBlock: 0x26f8330 [main%16], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2702658
+   Instruction: load [P]0x2702598
+   Instruction: zext [P]0x2709de8
+   Instruction: getelementptr [P]0x2709d88 [P]0x2709e48
+   Instruction: store [P]0x26fcff0 [P]0x2709ec0
+   Instruction: store [P]0x2702b80 [P]0x27025f8
+   Instruction: br [P]0x2702140
+ BasicBlock: 0x2702140  wBasicBlock: 0x26f8770 [main%17], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x27025f8
+   Instruction: load [P]0x2702538
+   Instruction: icmp [P]0x270a088 [P]0x270a0e8
+   Instruction: br [P]0x270a160 [P]0x2703c60 [P]0x2703ad0
+ BasicBlock: 0x2703ad0  wBasicBlock: 0x26f8a60 [main%18], Type: 1 [ONE_BRANCH]
+   Instruction: call   [CS-] rand [S]rand
+   Instruction: br [P]0x26fca60
+ BasicBlock: 0x26fca60  wBasicBlock: 0x26f8c10 [main%19], Type: 2 [TWO_BRANCH]
+   Instruction: srem [P]0x270a248 [P]0x27054a0
+   Instruction: icmp [P]0x270a2d0 [P]0x2702b80
+   Instruction: br [P]0x270a340 [P]0x2703b70 [P]0x2703b20
+ BasicBlock: 0x2703b20  wBasicBlock: 0x26f8eb0 [main%20], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2701348
+   Instruction: load [P]0x27025f8
+   Instruction: zext [P]0x270a488
+   Instruction: getelementptr [P]0x270a428 [P]0x270a4e8
+   Instruction: load [P]0x270a560
+   Instruction: fpext [P]0x270a5c8
+   Instruction: load [P]0x27013a8
+   Instruction: load [P]0x27025f8
+   Instruction: zext [P]0x270a6e8
+   Instruction: getelementptr [P]0x270a688 [P]0x27070d8
+   Instruction: load [P]0x2707150
+   Instruction: load [P]0x2702598
+   Instruction: uitofp [P]0x2707218
+   Instruction: fmul [P]0x27071b8 [P]0x2707278
+   Instruction: fpext [P]0x27072f0
+   Instruction: call   [CS-] cos [P]0x2707348 [S]cos
+   Instruction: br [P]0x26fe490
+ BasicBlock: 0x26fe490  wBasicBlock: 0x271b210 [main%21], Type: 1 [ONE_BRANCH]
+   Instruction: fmul [P]0x270a628 [P]0x27073c0
+   Instruction: load [P]0x2702658
+   Instruction: load [P]0x2702598
+   Instruction: zext [P]0x27074f8
+   Instruction: getelementptr [P]0x2707498 [P]0x2707558
+   Instruction: load [P]0x27075d0
+   Instruction: fpext [P]0x2707638
+   Instruction: fadd [P]0x2707698 [P]0x2707440
+   Instruction: fptrunc [P]0x2707710
+   Instruction: store [P]0x2707768 [P]0x27075d0
+   Instruction: br [P]0x2703bc0
+ BasicBlock: 0x2703b70  wBasicBlock: 0x271b830 [main%22], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2701348
+   Instruction: load [P]0x27025f8
+   Instruction: zext [P]0x2708808
+   Instruction: getelementptr [P]0x27087a8 [P]0x2708868
+   Instruction: load [P]0x27088e0
+   Instruction: fpext [P]0x2708948
+   Instruction: load [P]0x27013a8
+   Instruction: load [P]0x27025f8
+   Instruction: zext [P]0x2708a68
+   Instruction: getelementptr [P]0x2708a08 [P]0x2708ac8
+   Instruction: load [P]0x2707860
+   Instruction: load [P]0x2702598
+   Instruction: uitofp [P]0x2707928
+   Instruction: fmul [P]0x27078c8 [P]0x2707988
+   Instruction: fpext [P]0x2707a00
+   Instruction: call   [CS-] sin [P]0x2707a58 [S]sin
+   Instruction: br [P]0x2701850
+ BasicBlock: 0x2701850  wBasicBlock: 0x271c0f0 [main%23], Type: 1 [ONE_BRANCH]
+   Instruction: fmul [P]0x27089a8 [P]0x2707ad0
+   Instruction: load [P]0x2702658
+   Instruction: load [P]0x2702598
+   Instruction: zext [P]0x2707c08
+   Instruction: getelementptr [P]0x2707ba8 [P]0x2707c68
+   Instruction: load [P]0x270c790
+   Instruction: fpext [P]0x270c7f8
+   Instruction: fadd [P]0x270c858 [P]0x2707b50
+   Instruction: fptrunc [P]0x270c8d0
+   Instruction: store [P]0x270c928 [P]0x270c790
+   Instruction: br [P]0x2703bc0
+ BasicBlock: 0x2703bc0  wBasicBlock: 0x271c710 [main%24], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2701228
+   Instruction: load [P]0x2702598
+   Instruction: zext [P]0x270cac8
+   Instruction: getelementptr [P]0x270ca68 [P]0x270cb28
+   Instruction: store [P]0x26fcff0 [P]0x270cba0
+   Instruction: br [P]0x2703c10
+ BasicBlock: 0x2703c10  wBasicBlock: 0x271cac0 [main%25], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27025f8
+   Instruction: add [P]0x270cce8 [P]0x2702e20
+   Instruction: store [P]0x270cd60 [P]0x27025f8
+   Instruction: br [P]0x2702140
+ BasicBlock: 0x2703c60  wBasicBlock: 0x271cd90 [main%26], Type: 1 [ONE_BRANCH]
+   Instruction: br [P]0x27053b0
+ BasicBlock: 0x27053b0  wBasicBlock: 0x271ced0 [main%27], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2702598
+   Instruction: add [P]0x270cef8 [P]0x2702e20
+   Instruction: store [P]0x270cf70 [P]0x2702598
+   Instruction: br [P]0x27020a0
+ BasicBlock: 0x2705400  wBasicBlock: 0x271d1a0 [main%28], Type: 3 [CALL]
+   Instruction: load [P]0x27024d8
+   Instruction: load [P]0x2701408
+   Instruction: load [P]0x2702658
+   Instruction: load [P]0x2701228
+   Instruction: load [P]0x2701288
+   Instruction: load [P]0x27012e8
+   Instruction: call   [CS+] fft_float [P]0x270d0a8 [P]0x270d108 [P]0x270d168 [P]0x270d1c8 [P]0x270d228 [P]0x270d288 [P]0x27054e8
+   Instruction: br [P]0x26f90d0
+ BasicBlock: 0x26f90d0  wBasicBlock: 0x271d6b0 [main%29], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2702658
+   Instruction: bitcast [P]0x270d3e8
+   Instruction: call   [CS-] free [P]0x270d448 [S]free
+   Instruction: br [P]0x2701b00
+ BasicBlock: 0x2701b00  wBasicBlock: 0x271d960 [main%30], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2701228
+   Instruction: bitcast [P]0x270d528
+   Instruction: call   [CS-] free [P]0x270d588 [S]free
+   Instruction: br [P]0x2702400
+ BasicBlock: 0x2702400  wBasicBlock: 0x271dc10 [main%31], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2701288
+   Instruction: bitcast [P]0x270d668
+   Instruction: call   [CS-] free [P]0x270d6c8 [S]free
+   Instruction: br [P]0x26f9e00
+ BasicBlock: 0x26f9e00  wBasicBlock: 0x271dec0 [main%32], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27012e8
+   Instruction: bitcast [P]0x2708c38
+   Instruction: call   [CS-] free [P]0x2708c98 [S]free
+   Instruction: br [P]0x26fa130
+ BasicBlock: 0x26fa130  wBasicBlock: 0x271e170 [main%33], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2701348
+   Instruction: bitcast [P]0x2708d78
+   Instruction: call   [CS-] free [P]0x2708dd8 [S]free
+   Instruction: br [P]0x26fa340
+ BasicBlock: 0x26fa340  wBasicBlock: 0x271e420 [main%34], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27013a8
+   Instruction: bitcast [P]0x2708eb8
+   Instruction: call   [CS-] free [P]0x2708f18 [S]free
+   Instruction: br [P]0x26fa5b0
+ BasicBlock: 0x26fa5b0  wBasicBlock: 0x271e6d0 [main%35], Type: 1 [ONE_BRANCH]
+   Instruction: call   [CS-] gettimeofday [P]0x2700598 [P]0x2702be0 [S]gettimeofday
+   Instruction: br [P]0x26fa7a0
+ BasicBlock: 0x26fa7a0  wBasicBlock: 0x271e8c0 [main%36], Type: 1 [ONE_BRANCH]
+   Instruction: getelementptr [P]0x2700598 [P]0x2702b80 [P]0x2702b80
+   Instruction: load [P]0x27090c8
+   Instruction: getelementptr [P]0x2701468 [P]0x2702b80 [P]0x2702b80
+   Instruction: load [P]0x27091c8
+   Instruction: sub [P]0x2709138 [P]0x2709238
+   Instruction: mul [P]0x27092b0 [P]0x2705510
+   Instruction: getelementptr [P]0x2700598 [P]0x2702b80 [P]0x2702e20
+   Instruction: load [P]0x27093a8
+   Instruction: getelementptr [P]0x2701468 [P]0x2702b80 [P]0x2702e20
+   Instruction: load [P]0x27094a8
+   Instruction: sub [P]0x2709418 [P]0x2709518
+   Instruction: sdiv [P]0x2709590 [P]0x2705510
+   Instruction: add [P]0x2709320 [P]0x2709600
+   Instruction: call   [CS-] printf [P]0x2705588 [P]0x2709670 [S]printf
+   Instruction: br [P]0x26fa850
+ BasicBlock: 0x26fa850  wBasicBlock: 0x271fbb0 [main%37], Type: 4 [Return]
+   Instruction: load [P]0x2702478
+   Instruction: ret [P]0x2709768
+Function: gettimeofday(VoidTy): 0x26fd6c8
+Function: srand(VoidTy): 0x26febd8
+Function: malloc(VoidTy): 0x2700da8
+Function: rand(VoidTy): 0x2700e38
+Function: cos(VoidTy): 0x26fd808
+Function: sin(VoidTy): 0x2701068
+Function: free(VoidTy): 0x27010f8
+Function: printf(VoidTy): 0x2701188
+Function: IsPowerOfTwo(NonVoidTy): 0x26fea48
+ BasicBlock: 0x2705450  wBasicBlock: 0x27208a0 [IsPowerOfTwo%0], Type: 2 [TWO_BRANCH]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2700960 [P]0x2709a18
+   Instruction: load [P]0x2709a18
+   Instruction: icmp [P]0x2709af8 [P]0x27054a0
+   Instruction: br [P]0x2709b70 [P]0x2709810 [P]0x2702910
+ BasicBlock: 0x2702910  wBasicBlock: 0x2720c90 [IsPowerOfTwo%1], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702b80 [P]0x27099b8
+   Instruction: br [P]0x2709900
+ BasicBlock: 0x2709810  wBasicBlock: 0x2720e60 [IsPowerOfTwo%2], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2709a18
+   Instruction: load [P]0x2709a18
+   Instruction: sub [P]0x270f908 [P]0x2702e20
+   Instruction: and [P]0x270f8a8 [P]0x270f980
+   Instruction: icmp [P]0x270f9f0 [P]0x2702b80
+   Instruction: br [P]0x270fa60 [P]0x27098b0 [P]0x2709860
+ BasicBlock: 0x2709860  wBasicBlock: 0x2721270 [IsPowerOfTwo%3], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702b80 [P]0x27099b8
+   Instruction: br [P]0x2709900
+ BasicBlock: 0x27098b0  wBasicBlock: 0x2721440 [IsPowerOfTwo%4], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702e20 [P]0x27099b8
+   Instruction: br [P]0x2709900
+ BasicBlock: 0x2709900  wBasicBlock: 0x2721610 [IsPowerOfTwo%5], Type: 0 [Return]
+   Instruction: load [P]0x27099b8
+   Instruction: ret [P]0x270fd08
+Function: NumberOfBitsNeeded(NonVoidTy): 0x2701528
+ BasicBlock: 0x2709950  wBasicBlock: 0x2721920 [NumberOfBitsNeeded%0], Type: 2 [TWO_BRANCH]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2708b10 [P]0x2710078
+   Instruction: load [P]0x2710078
+   Instruction: icmp [P]0x27101b8 [P]0x27054a0
+   Instruction: br [P]0x2710230 [P]0x270fe00 [P]0x270fdb0
+ BasicBlock: 0x270fdb0  wBasicBlock: 0x2721d10 [NumberOfBitsNeeded%1], Type: 1 [ONE_BRANCH]
+   Instruction: load [S]stderr
+   Instruction: load [P]0x2710078
+   Instruction: call   [CS-] fprintf [P]0x2710318 [P]0x2710028 [P]0x2710378 [S]fprintf
+   Instruction: br [P]0x270fe00
+ BasicBlock: 0x270fe00  wBasicBlock: 0x2722020 [NumberOfBitsNeeded%2], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702b80 [P]0x27100d8
+   Instruction: br [P]0x270fe50
+ BasicBlock: 0x270fe50  wBasicBlock: 0x2722210 [NumberOfBitsNeeded%3], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2710078
+   Instruction: load [P]0x27100d8
+   Instruction: shl [P]0x2702e20 [P]0x2710628
+   Instruction: and [P]0x27105c8 [P]0x27106a0
+   Instruction: icmp [P]0x2710710 [P]0x2702b80
+   Instruction: br [P]0x2710780 [P]0x270fef0 [P]0x270fea0
+ BasicBlock: 0x270fea0  wBasicBlock: 0x2722640 [NumberOfBitsNeeded%4], Type: 0 [Return]
+   Instruction: load [P]0x27100d8
+   Instruction: ret [P]0x2710868
+ BasicBlock: 0x270fef0  wBasicBlock: 0x2722810 [NumberOfBitsNeeded%5], Type: 1 [ONE_BRANCH]
+   Instruction: br [P]0x270ff40
+ BasicBlock: 0x270ff40  wBasicBlock: 0x2722970 [NumberOfBitsNeeded%6], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27100d8
+   Instruction: add [P]0x2710988 [P]0x2702e20
+   Instruction: store [P]0x2710a00 [P]0x27100d8
+   Instruction: br [P]0x270fe50
+Function: fprintf(VoidTy): 0x27015b8
+Function: ReverseBits(NonVoidTy): 0x2701678
+ BasicBlock: 0x270ff90  wBasicBlock: 0x2722ee0 [ReverseBits%0], Type: 1 [ONE_BRANCH]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2710b20 [P]0x2710d28
+   Instruction: store [P]0x2710b48 [P]0x2710d88
+   Instruction: store [P]0x2702b80 [P]0x2710e48
+   Instruction: store [P]0x2702b80 [P]0x2710de8
+   Instruction: br [P]0x2710b80
+ BasicBlock: 0x2710b80  wBasicBlock: 0x2723420 [ReverseBits%1], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2710de8
+   Instruction: load [P]0x2710d88
+   Instruction: icmp [P]0x2711108 [P]0x2711168
+   Instruction: br [P]0x27111e0 [P]0x2710c70 [P]0x2710bd0
+ BasicBlock: 0x2710bd0  wBasicBlock: 0x2723710 [ReverseBits%2], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2710e48
+   Instruction: shl [P]0x27112c8 [P]0x2702e20
+   Instruction: load [P]0x2710d28
+   Instruction: and [P]0x2711398 [P]0x2702e20
+   Instruction: or [P]0x2711340 [P]0x2711410
+   Instruction: store [P]0x2711480 [P]0x2710e48
+   Instruction: load [P]0x2710d28
+   Instruction: lshr [P]0x2711558 [P]0x2702e20
+   Instruction: store [P]0x27115d0 [P]0x2710d28
+   Instruction: br [P]0x2710c20
+ BasicBlock: 0x2710c20  wBasicBlock: 0x2723d00 [ReverseBits%3], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2710de8
+   Instruction: add [P]0x2711708 [P]0x2702e20
+   Instruction: store [P]0x2711780 [P]0x2710de8
+   Instruction: br [P]0x2710b80
+ BasicBlock: 0x2710c70  wBasicBlock: 0x2723fd0 [ReverseBits%4], Type: 0 [Return]
+   Instruction: load [P]0x2710e48
+   Instruction: ret [P]0x27118b8
+Function: Index_to_frequency(NonVoidTy): 0x2701768
+ BasicBlock: 0x2710cc0  wBasicBlock: 0x27242e0 [Index_to_frequency%0], Type: 2 [TWO_BRANCH]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2711960 [P]0x2711ca8
+   Instruction: store [P]0x2711988 [P]0x2711d08
+   Instruction: load [P]0x2711d08
+   Instruction: load [P]0x2711ca8
+   Instruction: icmp [P]0x2711e68 [P]0x2711ec8
+   Instruction: br [P]0x2711f40 [P]0x2711a10 [P]0x27119c0
+ BasicBlock: 0x27119c0  wBasicBlock: 0x2724840 [Index_to_frequency%1], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x27026a0 [P]0x2711c48
+   Instruction: br [P]0x2711b50
+ BasicBlock: 0x2711a10  wBasicBlock: 0x2724a30 [Index_to_frequency%2], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2711d08
+   Instruction: load [P]0x2711ca8
+   Instruction: udiv [P]0x2712168 [P]0x27054a0
+   Instruction: icmp [P]0x2712108 [P]0x27121e0
+   Instruction: br [P]0x2712250 [P]0x2711ab0 [P]0x2711a60
+ BasicBlock: 0x2711a60  wBasicBlock: 0x2724dd0 [Index_to_frequency%3], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2711d08
+   Instruction: uitofp [P]0x2712338
+   Instruction: load [P]0x2711ca8
+   Instruction: uitofp [P]0x27123f8
+   Instruction: fdiv [P]0x2712398 [P]0x2712458
+   Instruction: store [P]0x27124d0 [P]0x2711c48
+   Instruction: br [P]0x2711b50
+ BasicBlock: 0x2711ab0  wBasicBlock: 0x2725210 [Index_to_frequency%4], Type: 1 [ONE_BRANCH]
+   Instruction: br [P]0x2711b00
+ BasicBlock: 0x2711b00  wBasicBlock: 0x2725370 [Index_to_frequency%5], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2711ca8
+   Instruction: load [P]0x2711d08
+   Instruction: sub [P]0x2712668 [P]0x27126c8
+   Instruction: uitofp [P]0x2712740
+   Instruction: fsub [P]0x2711bf0 [P]0x2712798
+   Instruction: load [P]0x2711ca8
+   Instruction: uitofp [P]0x2712868
+   Instruction: fdiv [P]0x2712810 [P]0x27128c8
+   Instruction: store [P]0x2712940 [P]0x2711c48
+   Instruction: br [P]0x2711b50
+ BasicBlock: 0x2711b50  wBasicBlock: 0x2725940 [Index_to_frequency%6], Type: 0 [Return]
+   Instruction: load [P]0x2711c48
+   Instruction: ret [P]0x2712a78
+Function: fft_float(VoidTy): 0x27018a8
+ BasicBlock: 0x2711ba0  wBasicBlock: 0x2725c50 [fft_float%0], Type: 3 [CALL]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2712b20 [P]0x27139a8
+   Instruction: store [P]0x2712b48 [P]0x2713a08
+   Instruction: store [P]0x2712b70 [P]0x2713a68
+   Instruction: store [P]0x2712b98 [P]0x2713ac8
+   Instruction: store [P]0x2712bc0 [P]0x2713b28
+   Instruction: store [P]0x2712be8 [P]0x2713b88
+   Instruction: store [P]0x2702960 [P]0x2713e88
+   Instruction: load [P]0x27139a8
+   Instruction: call   [CS-] IsPowerOfTwo [P]0x27146e8 [S]IsPowerOfTwo
+   Instruction: br [P]0x2701ca0
+ BasicBlock: 0x2701ca0  wBasicBlock: 0x2726de0 [fft_float%1], Type: 2 [TWO_BRANCH]
+   Instruction: icmp [P]0x2714760 [P]0x2702b80
+   Instruction: br [P]0x27147e0 [P]0x2712d20 [P]0x2712d70
+ BasicBlock: 0x2712d20  wBasicBlock: 0x2726ff0 [fft_float%2], Type: 1 [ONE_BRANCH]
+   Instruction: load [S]stderr
+   Instruction: load [P]0x27139a8
+   Instruction: call   [CS-] fprintf [P]0x27148c8 [P]0x27136c8 [P]0x2714928 [S]fprintf
+   Instruction: br [P]0x2712d70
+ BasicBlock: 0x2712d70  wBasicBlock: 0x27272e0 [fft_float%3], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713a08
+   Instruction: icmp [P]0x2714a98 [P]0x2702b80
+   Instruction: br [P]0x2714b10 [P]0x2712e10 [P]0x2712dc0
+ BasicBlock: 0x2712dc0  wBasicBlock: 0x2727560 [fft_float%4], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713e88
+   Instruction: fsub [P]0x2711bf0 [P]0x2714bf8
+   Instruction: store [P]0x2714c70 [P]0x2713e88
+   Instruction: br [P]0x2712e10
+ BasicBlock: 0x2712e10  wBasicBlock: 0x2727830 [fft_float%5], Type: 3 [CALL]
+   Instruction: load [P]0x2713a68
+   Instruction: bitcast [P]0x2714da8
+   Instruction: call   [CS-] CheckPointer [P]0x2714e08 [P]0x2713748 [S]CheckPointer
+   Instruction: br [P]0x26fc6b0
+ BasicBlock: 0x26fc6b0  wBasicBlock: 0x2727b00 [fft_float%6], Type: 3 [CALL]
+   Instruction: load [P]0x2713b28
+   Instruction: bitcast [P]0x2714f08
+   Instruction: call   [CS-] CheckPointer [P]0x2714f68 [P]0x27137c8 [S]CheckPointer
+   Instruction: br [P]0x2701bb0
+ BasicBlock: 0x2701bb0  wBasicBlock: 0x2727dd0 [fft_float%7], Type: 3 [CALL]
+   Instruction: load [P]0x2713b88
+   Instruction: bitcast [P]0x2715068
+   Instruction: call   [CS-] CheckPointer [P]0x27150c8 [P]0x2713848 [S]CheckPointer
+   Instruction: br [P]0x26f9b20
+ BasicBlock: 0x26f9b20  wBasicBlock: 0x27280a0 [fft_float%8], Type: 3 [CALL]
+   Instruction: load [P]0x27139a8
+   Instruction: call   [CS-] NumberOfBitsNeeded [P]0x27151c8 [S]NumberOfBitsNeeded
+   Instruction: br [P]0x26f9eb0
+ BasicBlock: 0x26f9eb0  wBasicBlock: 0x27282e0 [fft_float%9], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2715240 [P]0x2713be8
+   Instruction: store [P]0x2702b80 [P]0x2713c48
+   Instruction: br [P]0x2712e60
+ BasicBlock: 0x2712e60  wBasicBlock: 0x2728540 [fft_float%10], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713c48
+   Instruction: load [P]0x27139a8
+   Instruction: icmp [P]0x2715408 [P]0x2715468
+   Instruction: br [P]0x27154e0 [P]0x2713040 [P]0x2712eb0
+ BasicBlock: 0x2712eb0  wBasicBlock: 0x2728830 [fft_float%11], Type: 3 [CALL]
+   Instruction: load [P]0x2713c48
+   Instruction: load [P]0x2713be8
+   Instruction: call   [CS-] ReverseBits [P]0x27155c8 [P]0x2715628 [S]ReverseBits
+   Instruction: br [P]0x26fc760
+ BasicBlock: 0x26fc760  wBasicBlock: 0x2728b00 [fft_float%12], Type: 2 [TWO_BRANCH]
+   Instruction: store [P]0x27156b8 [P]0x2713ca8
+   Instruction: load [P]0x2713a68
+   Instruction: load [P]0x2713c48
+   Instruction: zext [P]0x2715808
+   Instruction: getelementptr [P]0x27157a8 [P]0x2715868
+   Instruction: load [P]0x27158e0
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713ca8
+   Instruction: zext [P]0x2715a08
+   Instruction: getelementptr [P]0x27159a8 [P]0x2715a68
+   Instruction: store [P]0x2715948 [P]0x2715ae0
+   Instruction: load [P]0x2713ac8
+   Instruction: icmp [P]0x2715bc8 [P]0x2702c70
+   Instruction: br [P]0x2715c40 [P]0x2712f50 [P]0x2712f00
+ BasicBlock: 0x2712f00  wBasicBlock: 0x27292d0 [fft_float%13], Type: 1 [ONE_BRANCH]
+   Instruction: br [P]0x2712fa0
+ BasicBlock: 0x2712f50  wBasicBlock: 0x2729410 [fft_float%14], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713ac8
+   Instruction: load [P]0x2713c48
+   Instruction: zext [P]0x2715de8
+   Instruction: getelementptr [P]0x2715d88 [P]0x2715e48
+   Instruction: load [P]0x2715ec0
+   Instruction: fpext [P]0x2715f28
+   Instruction: br [P]0x2712fa0
+ BasicBlock: 0x2712fa0  wBasicBlock: 0x2729810 [fft_float%15], Type: 1 [ONE_BRANCH]
+   Instruction: phi [P]0x27026a0 [P]0x2715f88
+   Instruction: fptrunc [P]0x2713638
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713ca8
+   Instruction: zext [P]0x2716158
+   Instruction: getelementptr [P]0x27160f8 [P]0x27161b8
+   Instruction: store [P]0x2716098 [P]0x2716230
+   Instruction: br [P]0x2712ff0
+ BasicBlock: 0x2712ff0  wBasicBlock: 0x2729cc0 [fft_float%16], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713c48
+   Instruction: add [P]0x2716378 [P]0x2702e20
+   Instruction: store [P]0x27163f0 [P]0x2713c48
+   Instruction: br [P]0x2712e60
+ BasicBlock: 0x2713040  wBasicBlock: 0x2729f90 [fft_float%17], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2702e20 [P]0x2713e28
+   Instruction: store [P]0x27054a0 [P]0x2713dc8
+   Instruction: br [P]0x2713090
+ BasicBlock: 0x2713090  wBasicBlock: 0x272a1f0 [fft_float%18], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713dc8
+   Instruction: load [P]0x27139a8
+   Instruction: icmp [P]0x2716688 [P]0x27166e8
+   Instruction: br [P]0x2716760 [P]0x2713400 [P]0x27130e0
+ BasicBlock: 0x27130e0  wBasicBlock: 0x272a4e0 [fft_float%19], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713e88
+   Instruction: load [P]0x2713dc8
+   Instruction: uitofp [P]0x27168a8
+   Instruction: fdiv [P]0x2716848 [P]0x2716908
+   Instruction: store [P]0x2716980 [P]0x2713fa8
+   Instruction: load [P]0x2713fa8
+   Instruction: fmul [P]0x2713880 [P]0x2716a58
+   Instruction: call   [CS-] sin [P]0x2716ad0 [S]sin
+   Instruction: br [P]0x26fe720
+ BasicBlock: 0x26fe720  wBasicBlock: 0x272aa20 [fft_float%20], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2716b40 [P]0x2714008
+   Instruction: load [P]0x2713fa8
+   Instruction: fsub [P]0x2711bf0 [P]0x2716c28
+   Instruction: call   [CS-] sin [P]0x2716ca0 [S]sin
+   Instruction: br [P]0x2702240
+ BasicBlock: 0x2702240  wBasicBlock: 0x272ad80 [fft_float%21], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2716d10 [P]0x2714068
+   Instruction: load [P]0x2713fa8
+   Instruction: fmul [P]0x2713880 [P]0x2716df8
+   Instruction: call   [CS-] cos [P]0x2716e70 [S]cos
+   Instruction: br [P]0x26f9bd0
+ BasicBlock: 0x26f9bd0  wBasicBlock: 0x272b0e0 [fft_float%22], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x2716ee0 [P]0x27140c8
+   Instruction: load [P]0x2713fa8
+   Instruction: fsub [P]0x2711bf0 [P]0x2716fc8
+   Instruction: call   [CS-] cos [P]0x2717040 [S]cos
+   Instruction: br [P]0x26f9fd0
+ BasicBlock: 0x26f9fd0  wBasicBlock: 0x272b440 [fft_float%23], Type: 1 [ONE_BRANCH]
+   Instruction: store [P]0x27170b0 [P]0x2714128
+   Instruction: load [P]0x2714128
+   Instruction: fmul [P]0x27138c0 [P]0x2717198
+   Instruction: store [P]0x2717210 [P]0x2714188
+   Instruction: store [P]0x2702b80 [P]0x2713c48
+   Instruction: br [P]0x2713130
+ BasicBlock: 0x2713130  wBasicBlock: 0x272b830 [fft_float%24], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713c48
+   Instruction: load [P]0x27139a8
+   Instruction: icmp [P]0x27173c8 [P]0x2717428
+   Instruction: br [P]0x27174a0 [P]0x2713360 [P]0x2713180
+ BasicBlock: 0x2713180  wBasicBlock: 0x272bb20 [fft_float%25], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27140c8
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713930
+   Instruction: store [P]0x2717588 [P]0x2717618
+   Instruction: load [P]0x2714128
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713960
+   Instruction: store [P]0x2717708 [P]0x2717798
+   Instruction: load [P]0x2714008
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713930
+   Instruction: store [P]0x2717888 [P]0x2717918
+   Instruction: load [P]0x2714068
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713960
+   Instruction: store [P]0x2717a08 [P]0x2717a98
+   Instruction: load [P]0x2713c48
+   Instruction: store [P]0x2717b88 [P]0x2713ca8
+   Instruction: store [P]0x2702b80 [P]0x2713d68
+   Instruction: br [P]0x27131d0
+ BasicBlock: 0x27131d0  wBasicBlock: 0x272c4b0 [fft_float%26], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713d68
+   Instruction: load [P]0x2713e28
+   Instruction: icmp [P]0x2717d48 [P]0x2717da8
+   Instruction: br [P]0x2717e20 [P]0x27132c0 [P]0x2713220
+ BasicBlock: 0x2713220  wBasicBlock: 0x272c7a0 [fft_float%27], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2714188
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713960
+   Instruction: load [P]0x2717f98
+   Instruction: fmul [P]0x2717f08 [P]0x2718008
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713930
+   Instruction: load [P]0x2718108
+   Instruction: fsub [P]0x2718080 [P]0x2718178
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713900
+   Instruction: store [P]0x27181f0 [P]0x2718278
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713960
+   Instruction: load [P]0x2718398
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713930
+   Instruction: store [P]0x2718408 [P]0x2718498
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713900
+   Instruction: load [P]0x27185b8
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713960
+   Instruction: store [P]0x2718628 [P]0x27186b8
+   Instruction: load [P]0x2714188
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713960
+   Instruction: load [P]0x2718838
+   Instruction: fmul [P]0x27187a8 [P]0x27188a8
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713930
+   Instruction: load [P]0x27189a8
+   Instruction: fsub [P]0x2718920 [P]0x2718a18
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713900
+   Instruction: store [P]0x2718a90 [P]0x2718b18
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713960
+   Instruction: load [P]0x2718c38
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713930
+   Instruction: store [P]0x2718ca8 [P]0x2718d38
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713900
+   Instruction: load [P]0x2718e58
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713960
+   Instruction: store [P]0x2718ec8 [P]0x2718f58
+   Instruction: load [P]0x2713ca8
+   Instruction: load [P]0x2713e28
+   Instruction: add [P]0x2719048 [P]0x27190a8
+   Instruction: store [P]0x2719120 [P]0x2713d08
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713900
+   Instruction: load [P]0x2719228
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713d08
+   Instruction: zext [P]0x2719358
+   Instruction: getelementptr [P]0x27192f8 [P]0x27193b8
+   Instruction: load [P]0x2719430
+   Instruction: fpext [P]0x2719498
+   Instruction: fmul [P]0x2719298 [P]0x27194f8
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713900
+   Instruction: load [P]0x27195f8
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713d08
+   Instruction: zext [P]0x2719728
+   Instruction: getelementptr [P]0x27196c8 [P]0x2719788
+   Instruction: load [P]0x2719800
+   Instruction: fpext [P]0x2719868
+   Instruction: fmul [P]0x2719668 [P]0x27198c8
+   Instruction: fsub [P]0x2719570 [P]0x2719940
+   Instruction: store [P]0x27199b0 [P]0x2713ee8
+   Instruction: getelementptr [P]0x27141e8 [P]0x2713900 [P]0x2713900
+   Instruction: load [P]0x2719ab8
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713d08
+   Instruction: zext [P]0x2719be8
+   Instruction: getelementptr [P]0x2719b88 [P]0x2719c48
+   Instruction: load [P]0x2719cc0
+   Instruction: fpext [P]0x2719d28
+   Instruction: fmul [P]0x2719b28 [P]0x2719d88
+   Instruction: getelementptr [P]0x2714248 [P]0x2713900 [P]0x2713900
+   Instruction: load [P]0x2719e88
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713d08
+   Instruction: zext [P]0x2719fb8
+   Instruction: getelementptr [P]0x2719f58 [P]0x271a018
+   Instruction: load [P]0x271a090
+   Instruction: fpext [P]0x271a0f8
+   Instruction: fmul [P]0x2719ef8 [P]0x271a158
+   Instruction: fadd [P]0x2719e00 [P]0x271a1d0
+   Instruction: store [P]0x271a240 [P]0x2713f48
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713ca8
+   Instruction: zext [P]0x271a378
+   Instruction: getelementptr [P]0x271a318 [P]0x271a3d8
+   Instruction: load [P]0x271a450
+   Instruction: fpext [P]0x271a4b8
+   Instruction: load [P]0x2713ee8
+   Instruction: fsub [P]0x271a518 [P]0x271a578
+   Instruction: fptrunc [P]0x271a5f0
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713d08
+   Instruction: zext [P]0x271a708
+   Instruction: getelementptr [P]0x271a6a8 [P]0x271a768
+   Instruction: store [P]0x271a648 [P]0x271a7e0
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713ca8
+   Instruction: zext [P]0x271a928
+   Instruction: getelementptr [P]0x271a8c8 [P]0x271a988
+   Instruction: load [P]0x271aa00
+   Instruction: fpext [P]0x271aa68
+   Instruction: load [P]0x2713f48
+   Instruction: fsub [P]0x271aac8 [P]0x271ab28
+   Instruction: fptrunc [P]0x271aba0
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713d08
+   Instruction: zext [P]0x270c018
+   Instruction: getelementptr [P]0x270bfb8 [P]0x270c078
+   Instruction: store [P]0x270bf58 [P]0x270c0f0
+   Instruction: load [P]0x2713ee8
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713ca8
+   Instruction: zext [P]0x270c298
+   Instruction: getelementptr [P]0x270c238 [P]0x270c2f8
+   Instruction: load [P]0x270c370
+   Instruction: fpext [P]0x270c3d8
+   Instruction: fadd [P]0x270c438 [P]0x270c1d8
+   Instruction: fptrunc [P]0x270c4b0
+   Instruction: store [P]0x270c508 [P]0x270c370
+   Instruction: load [P]0x2713f48
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713ca8
+   Instruction: zext [P]0x270c6a8
+   Instruction: getelementptr [P]0x270c648 [P]0x270c708
+   Instruction: load [P]0x270a760
+   Instruction: fpext [P]0x270a7c8
+   Instruction: fadd [P]0x270a828 [P]0x270c5e8
+   Instruction: fptrunc [P]0x270a8a0
+   Instruction: store [P]0x270a8f8 [P]0x270a760
+   Instruction: br [P]0x2713270
+ BasicBlock: 0x2713270  wBasicBlock: 0x2730940 [fft_float%28], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713ca8
+   Instruction: add [P]0x270aa38 [P]0x2702e20
+   Instruction: store [P]0x270aab0 [P]0x2713ca8
+   Instruction: load [P]0x2713d68
+   Instruction: add [P]0x270ab88 [P]0x2702e20
+   Instruction: store [P]0x270ac00 [P]0x2713d68
+   Instruction: br [P]0x27131d0
+ BasicBlock: 0x27132c0  wBasicBlock: 0x2730da0 [fft_float%29], Type: 1 [ONE_BRANCH]
+   Instruction: br [P]0x2713310
+ BasicBlock: 0x2713310  wBasicBlock: 0x2730ee0 [fft_float%30], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713dc8
+   Instruction: load [P]0x2713c48
+   Instruction: add [P]0x270adf8 [P]0x270ad98
+   Instruction: store [P]0x270ae70 [P]0x2713c48
+   Instruction: br [P]0x2713130
+ BasicBlock: 0x2713360  wBasicBlock: 0x2731220 [fft_float%31], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713dc8
+   Instruction: store [P]0x270afa8 [P]0x2713e28
+   Instruction: br [P]0x27133b0
+ BasicBlock: 0x27133b0  wBasicBlock: 0x2731460 [fft_float%32], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713dc8
+   Instruction: shl [P]0x270b0e8 [P]0x2702e20
+   Instruction: store [P]0x270b160 [P]0x2713dc8
+   Instruction: br [P]0x2713090
+ BasicBlock: 0x2713400  wBasicBlock: 0x2731730 [fft_float%33], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713a08
+   Instruction: icmp [P]0x270b298 [P]0x2702b80
+   Instruction: br [P]0x270b310 [P]0x27135e0 [P]0x2713450
+ BasicBlock: 0x2713450  wBasicBlock: 0x27319b0 [fft_float%34], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x27139a8
+   Instruction: uitofp [P]0x270b3f8
+   Instruction: store [P]0x270b458 [P]0x2714308
+   Instruction: store [P]0x2702b80 [P]0x2713c48
+   Instruction: br [P]0x27134a0
+ BasicBlock: 0x27134a0  wBasicBlock: 0x2731cf0 [fft_float%35], Type: 2 [TWO_BRANCH]
+   Instruction: load [P]0x2713c48
+   Instruction: load [P]0x27139a8
+   Instruction: icmp [P]0x270b618 [P]0x270b678
+   Instruction: br [P]0x270b6f0 [P]0x2713590 [P]0x27134f0
+ BasicBlock: 0x27134f0  wBasicBlock: 0x2731fe0 [fft_float%36], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2714308
+   Instruction: load [P]0x2713b28
+   Instruction: load [P]0x2713c48
+   Instruction: zext [P]0x270b898
+   Instruction: getelementptr [P]0x270b838 [P]0x270b8f8
+   Instruction: load [P]0x270b970
+   Instruction: fpext [P]0x270b9d8
+   Instruction: fdiv [P]0x270ba38 [P]0x270b7d8
+   Instruction: fptrunc [P]0x270bab0
+   Instruction: store [P]0x270bb08 [P]0x270b970
+   Instruction: load [P]0x2714308
+   Instruction: load [P]0x2713b88
+   Instruction: load [P]0x2713c48
+   Instruction: zext [P]0x270bca8
+   Instruction: getelementptr [P]0x270bc48 [P]0x270bd08
+   Instruction: load [P]0x270bd80
+   Instruction: fpext [P]0x270bde8
+   Instruction: fdiv [P]0x270be48 [P]0x270bbe8
+   Instruction: fptrunc [P]0x270bec0
+   Instruction: store [P]0x271ec48 [P]0x270bd80
+   Instruction: br [P]0x2713540
+ BasicBlock: 0x2713540  wBasicBlock: 0x2732aa0 [fft_float%37], Type: 1 [ONE_BRANCH]
+   Instruction: load [P]0x2713c48
+   Instruction: add [P]0x271ed88 [P]0x2702e20
+   Instruction: store [P]0x271ee00 [P]0x2713c48
+   Instruction: br [P]0x27134a0
+ BasicBlock: 0x2713590  wBasicBlock: 0x2732d70 [fft_float%38], Type: 1 [ONE_BRANCH]
+   Instruction: br [P]0x27135e0
+ BasicBlock: 0x27135e0  wBasicBlock: 0x2732eb0 [fft_float%39], Type: 0 [Return]
+   Instruction: ret
+Function: CheckPointer(VoidTy): 0x2701968
+ BasicBlock: 0x2712c80  wBasicBlock: 0x2733110 [CheckPointer%0], Type: 2 [TWO_BRANCH]
+   Instruction: alloca [P]0x2702e20
+   Instruction: alloca [P]0x2702e20
+   Instruction: store [P]0x2712c20 [P]0x271f0b8
+   Instruction: store [P]0x2712c48 [P]0x271f118
+   Instruction: load [P]0x271f0b8
+   Instruction: icmp [P]0x271f278 [P]0x2703ab0
+   Instruction: br [P]0x271f2f0 [P]0x271ef80 [P]0x2712cd0
+ BasicBlock: 0x2712cd0  wBasicBlock: 0x2733590 [CheckPointer%1], Type: 1 [ONE_BRANCH]
+   Instruction: load [S]stderr
+   Instruction: load [P]0x271f118
+   Instruction: call   [CS-] fprintf [P]0x271f3d8 [P]0x271f068 [P]0x271f438 [S]fprintf
+   Instruction: br [P]0x271ef80
+ BasicBlock: 0x271ef80  wBasicBlock: 0x2733880 [CheckPointer%2], Type: 0 [Return]
+   Instruction: ret
