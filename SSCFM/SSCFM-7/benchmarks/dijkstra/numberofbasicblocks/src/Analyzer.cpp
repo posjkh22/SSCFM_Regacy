@@ -4,6 +4,32 @@
 char target_symbol[] = "main";
 
 
+bool Analyzer::numberofinstruction()
+{
+	
+	std::unique_ptr<Module> &m = *p_IRmodule;
+	unsigned int numberofinstructions = 0;
+	for (auto iter1 = m->getFunctionList().begin();
+		iter1 != m->getFunctionList().end(); iter1++)
+	{
+
+		Function &f = *iter1;
+		for (auto iter2 = f.getBasicBlockList().begin(); 
+				iter2 != f.getBasicBlockList().end(); iter2++) 
+		{
+			BasicBlock &bb = *iter2;
+			for(auto iter3 = bb.begin(); iter3 != bb.end(); iter3++)
+			{
+				numberofinstructions++;
+			}
+		}
+	}
+	std::cout << "[6]numberofinstructions: " << numberofinstructions << std::endl;
+
+	return true;
+}
+
+
 bool Analyzer::numberoffunction()
 {
 	

@@ -13,7 +13,7 @@ INPUT 		= main
 OUTPUT		= outputs
 
 run:
-	./$(TARGET) ../source/simple.bc
+	./$(TARGET) ../source/whetstone.bc
 
 link: result_clean
 	clang++ -std=c++11 \

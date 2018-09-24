@@ -190,6 +190,7 @@ public:
 public:
 	bool numberofbasicblock();
 	bool numberoffunction();
+	bool numberofinstruction();
 	bool generate_module();
 
 

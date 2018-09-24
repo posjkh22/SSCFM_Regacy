@@ -64,7 +64,8 @@ int main(int argc, char *argv[])
 	/* numberofbasicblock */
 	machine.numberofbasicblock();
 	machine.numberoffunction();
-	
+	machine.numberofinstruction();
+
 	machine.generate_module();
 	/*
 	machine.DebugWrapperModule();
